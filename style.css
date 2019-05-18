@@ -31,6 +31,9 @@ ol {
 #grid #article {
   padding-left: 25px;
 }
+#article a {
+  color : blue;
+}
 @media (max-width : 750px) {
   #grid {
     display : block;
