@@ -1,15 +1,20 @@
 body {
   margin : 0;
-  background: url(창문2.jpg) no-repeat center center fixed; -webkit-background-size: cover;
-  -moz-background-size: cover;-o-background-size: cover;background-size: cover;
-  background-color: rgba( 255, 255, 255, 0.5 );
+}
+body.black {
+  background-color : black;
+  color : white;
+}
+body.white {
+  background-color : white;
+  color : black;
 }
 a {
-  color : black;
+  color : salmon;
   text-decoration: none;
 }
 #active {
-  color : green;
+  color : orange;
 }
 h1 {
   font-size : 45px;
@@ -21,6 +26,7 @@ h1 {
 ol {
   border-right: 1px solid gray;
   width : 100px;
+  height : 1500px;
   margin : 0;
   padding : 20px;
 }
@@ -34,8 +40,11 @@ ol {
 #grid #article {
   padding-left: 25px;
 }
+#grid #control {
+  float : right;
+}
 #article a {
-  color : blue;
+  color : sandybrown;
 }
 @media (max-width : 750px) {
   #grid {
