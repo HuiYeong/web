@@ -17,7 +17,7 @@
   <link rel = "stylesheet" href = "style.css">
 </head>
 
-<body>
+<body id = "target">
   <h1><a href = "index.html">대한민국</a></h1>
   <div id = "grid">
     <ol>
@@ -26,6 +26,10 @@
       <li><a href = "3.html">음식</a></li>
     </ol>
     <div id = "article">
+      <div id = control>
+        <input type="button" value="white" id = "white_btn"/>
+        <input type="button" value="black" id = "black_btn"/>
+      </div>
       <h2>문화</h2>
       <p>한국은 반도에 있는 지리적 조건으로 대륙 문화와 해양 문화의 영향을 모두 받았다.
         고대의 한국 문화는 시베리아, 중앙아시아의 북방계와 동남아시아의 남방계가 혼합된 바탕에 중국 등 이웃 나라에서 들어온 외래 문화와 한국 고유의 독자적 문화와 융합하여 발전했다.
@@ -107,6 +111,6 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-
+  <script src = "script.js"></script>
 </body>
 </html>
