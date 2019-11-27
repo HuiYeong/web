@@ -17,7 +17,7 @@
   <link rel = "stylesheet" href = "style.css">
 </head>
 
-<body>
+<body id = "target">
   <h1><a href = "index.html">대한민국</a></h1>
   <div id = "grid">
     <ol>
@@ -26,6 +26,10 @@
       <li><a href = "3.html" id = "active">음식</a></li>
     </ol>
     <div id = "article">
+      <div id = control>
+        <input type="button" value="white" id = "white_btn"/>
+        <input type="button" value="black" id = "black_btn"/>
+      </div>
       <h2>음식</h2>
       <p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Cb5lRtJtdUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -96,5 +100,6 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
+  <script src = "script.js"></script>
 </body>
 </html>
