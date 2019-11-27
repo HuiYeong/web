@@ -17,7 +17,7 @@
   <link rel = "stylesheet" href = "style.css">
 </head>
 
-<body>
+<body id = "target">
   <h1><a href = "index.html">대한민국</a></h1>
   <div id = "grid">
     <ol>
@@ -26,6 +26,10 @@
       <li><a href = "3.html">음식</a></li>
     </ol>
     <div id = "article">
+      <div id = control>
+        <input type="button" value="white" id = "white_btn"/>
+        <input type="button" value="black" id = "black_btn"/>
+      </div>
       <h2>역사</h2>
       <p>한국의 뿌리는 1897년에 수립된 <u>대한제국</u>이다.
         고종 황제는 나라 이름을 조선(朝鮮)에서 대한(大韓)으로 고치고, 연호를 광무(光武)라 정하고, 스스로 황제의 자리에 올랐다.
@@ -111,6 +115,6 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-
+  <script src = "script.js"></script>
 </body>
 </html>
